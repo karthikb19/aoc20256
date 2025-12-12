@@ -17,14 +17,9 @@ def main():
                 if x:
                     ret.append(x)
             ops = ret 
-    print(numbers)
-    print(ops)
     res = 0
     curr = []
     op = ""
-    print(numbers[0])
-    print(numbers[1])
-    print(numbers[2])
 
     for i in range(len(numbers[0])):
         ret = "" 
